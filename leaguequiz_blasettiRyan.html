@@ -1,0 +1,39 @@
+<!Doctype Html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="questions_blasettiRyan.css">
+        <script type="text/javascript" src="leaguequiz_blasettiRyan.js"></script>
+        <title>League of Legends Quiz</title>
+    </head>
+    <body id="league" onload="commence()"> 
+        <form name="legends">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center><label><mark>Question:</mark></label>
+            <input type="text" id="lol" size="3">
+            <input type="button" id="start" value="Start Quiz!" onclick="main()">
+            <input type="button" id="restart" value="Try Again!" onclick="commence(); again(); thechoice();">
+            <input type="button" id="next" value="Next Question!" onclick="after(); thechoice();">
+            <br>
+            <input type="button" id="choice" value="Choose Answer" onclick="choosing(); thechoice();">
+            <br>
+            <input type="button" id="send" value="Submit" onclick="respond();">
+            <br>
+            <br>
+            <br>
+            <TEXTAREA COLS=35 ROWS=8 id="result" wrap="virtual"></TEXTAREA> 
+            <br>
+            <br>
+            <br>
+            <label id="labelA"><mark>Your Answer:</mark></label>
+                <input type="text" id="current" size="3">    
+            <label id="labelB"><mark>Score:</mark></label>
+                <input type="text" id="scoring" size="3"></center>
+        </form>
+
+       
+    </body>
+</html>
