@@ -1,0 +1,129 @@
+html{
+    min-height:100%;
+    position:relative;
+}
+
+#Q1 {
+    background-image:url('images/hardware.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+        }
+
+#Q2 {
+    background-image:url('images/hardware2.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q3 {
+    background-image:url('images/app.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q4 {
+    background-image:url('images/software.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q5 {
+    background-image:url('images/roger.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q6 {
+    background-image:url('images/highlight.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q7 {
+    background-image:url('images/html.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q8 {
+    background-image:url('images/css.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q9 {
+    background-image:url('images/css2.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q10 {
+    background-image:url('images/java.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Q11 {
+    background-image:url('images/java2.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+#win {
+    background-image:url('images/fireworks.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    zoom: 2;
+}
+
+#Question {
+    font-size:15px;
+    font-family: Verdana;
+    text-align:left;
+        }
+
+mark {
+    background-color:white;
+        }
+
+#Title{
+    text-align:left;
+    font-family:Times New Roman;
+    font-size:31px;
+}
+
+#lastTitle{
+    text-align:center;
+    font-family:Times New Roman;
+    font-size:60px;
+}
+
+#yay {
+    font-size:36px;
+    font-family: Verdana;
+    text-align:center;
+        }
+
+#vid {
+    width:35%;
+    height:15%;
+    display:block;
+        }
+
+ol {
+    list-style-type:upper-alpha;
+    background-color:white;
+    width: 170px;
+    font-size:17px;
+    text-align:left;
+        }
+
+#league {
+    background-image : url(images/league.jpg);
+    background-repeat : no-repeat;
+    background-size:100% 100%;
+    zoom:2;
+}
+
+    
+    
